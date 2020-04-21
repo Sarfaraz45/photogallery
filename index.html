@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id = image>Hover an image to display here</p>
+    </div>
+
+    <div id= "buttons">
+    <button onclick="openFunction()">Explain Pictures</button>
+    <button onclick="closeFunction()">Hide Explaination</button>
+    <p id = "content">This is a photo Gallery, displaing the logos of HTML, CSS, JavaScript. This used three technologies 
+        to create the webpage. This is an easy way to use JavaScript events and use collapsibles.
+    </p>
+    </div>
+    
+    </div>
+
+    <p id = "header">Data Flair's Photo Gallery</p>
+    <img class= "preview" alt="PIAIC" src = "D:\JavaScriptPractices\photogallery\Logo.fb7de414.svg" onmouseover="upDate(this)" onmouseout="unDo()" >
+    <img class="preview" alt="HTML" src = "D:\JavaScriptPractices\photogallery\HTML5_Badge_256.png" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class="preview" alt="Css" src="D:\JavaScriptPractices\photogallery\Css.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+    <img class= "preview" alt="JavaScript" src="D:\JavaScriptPractices\photogallery\js.png" onmouseover="upDate(this)" onmouseout="unDo()">
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
